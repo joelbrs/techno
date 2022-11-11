@@ -20,7 +20,7 @@
   {
     "id": "smartwatch",
     "nome": "Smartwatch",
-    "preco": 1199,
+    "preco": 199,
     "img": "./api/produtos/smartwatch/smartwatch.jpg"
   },
   {

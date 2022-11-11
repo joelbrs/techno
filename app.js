@@ -2,7 +2,7 @@ const vm = new Vue({
     el: '#app',
     
     data: {
-        produtos: []
+        produtos: [],
     },
 
     methods: {
