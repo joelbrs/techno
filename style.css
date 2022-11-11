@@ -23,6 +23,42 @@ ul {
     padding: 0 80px;
 }
 
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 900px;
+    
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+.carrinho_menu::after {
+    display: inline-block;
+    
+    background: url("./assets/carrinho.svg") no-repeat center center;
+
+    content: '';
+    
+    width: 25px;
+    height: 25px;
+
+    margin-left: 10px;
+}
+
+.carrinho_menu {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
 /* Lista de Produtos */
 
 .produtos {
@@ -166,6 +202,10 @@ ul {
 
     margin-top: 80px;
     padding: 10px 25px;
+}
+
+.modal_btn.esgotado {
+    background-color: #808080
 }
 
 .modal_btn:active {
